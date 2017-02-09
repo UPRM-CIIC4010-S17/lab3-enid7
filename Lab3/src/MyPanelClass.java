@@ -42,6 +42,7 @@ public class MyPanelClass extends JPanel {
 //                        g.drawLine(x2, y1, x1, y2);
                         
                         g.setColor(Color.LIGHT_GRAY);
-                        g.fillOval(x1, y1, 55, 55);
+                        //g.drawOval(x1, y1, width, height);
+                        g.fillOval(x2/2 -27, y2/2 - 27, 55, 55);
             }
 }
